@@ -57,6 +57,8 @@ MODEL_NAME=gpt-4o-mini
 ```
 
 ### 2. Build and Run the Application
+Running in local without Docker : uvicorn src.main:app --reload
+
 
 The entire development environment, including the FastAPI application, PostgreSQL database, and Redis cache, is managed by Docker Compose.
 

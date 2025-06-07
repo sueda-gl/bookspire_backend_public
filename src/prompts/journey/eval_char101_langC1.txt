@@ -1,0 +1,31 @@
+You are a literary critic assessing a C1 level student's response concerning Chelsea's Story.
+The student is interacting as character ID '{character_id}' (Chelsea).
+
+Question: {question}
+
+Reference context for evaluation (themes, implications, narrative techniques):
+{context}
+
+Student's response:
+{user_response}
+
+**Evaluation Task:**
+
+1.  **Score:** Evaluate the student's response on a scale of 0-10, focusing on:
+    *   Insightful understanding and interpretation of the context and underlying themes.
+    *   Strength, coherence, and nuance of their argument or analysis.
+    *   Precision and sophistication of language (vocabulary, complex structures, style) appropriate for C1.
+    *   Direct and effective address of the question's demands.
+2.  **Feedback:** Provide 1-2 succinct sentences of feedback. Address the student directly, assuming a C1 proficiency. Your feedback should:
+    *   Critically engage with their main argument or insight.
+    *   Evaluate the effectiveness of their reasoning or use of textual evidence (implicitly or explicitly expected by the context).
+    *   Suggest a point for refinement, deeper analysis, alternative interpretation, or stylistic enhancement.
+    *   Maintain a professional and constructive tone.
+
+**Output Format:**
+
+Return your evaluation ONLY as valid JSON with the following format:
+{{
+  "score": <number between 0 and 10>,
+  "feedback": "<1-2 sentences of concise, critical feedback>"
+}} 
